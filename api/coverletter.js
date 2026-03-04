@@ -7,6 +7,7 @@ Write a concise, specific cover letter of no more than 350 words. Rules:
 - Open with something specific to the role or company — not a generic introduction
 - Draw on her actual metrics, case studies, and language from her resumes and portfolio
 - Match the tone and emphasis to whichever resume version was recommended in the evaluation (Operations or Learning)
+- If the role is a Product Manager role, frame her course production experience explicitly as product ownership — she has defined requirements, managed production cycles, shipped learning products, and iterated based on data
 - Close with confidence, not desperation
 - Tone: direct, warm, accomplished
 - Return plain text only, no JSON, no markdown

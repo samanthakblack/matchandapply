@@ -54,6 +54,11 @@ EDUCATION
 MA in Education, Instructional Technologies — San Francisco State University
 BA in Journalism — Hawai'i Pacific University
 
+PROFESSIONAL DEVELOPMENT
+DataCamp SQL Fundamentals | In Progress
+UC Irvine Finance for Non-Financial Professionals | 2025
+SheCodes Responsive Web Development | 2022 | SheCodes Front End Development | 2021 | SheCodes Basics | 2021
+
 ---
 
 RESUME: LEARNING — Curriculum Strategy & Learning Systems Leader
@@ -106,33 +111,68 @@ EDUCATION
 MA in Education, Instructional Technologies — San Francisco State University
 BA in Journalism — Hawai'i Pacific University
 
+PROFESSIONAL DEVELOPMENT
+DataCamp SQL Fundamentals | In Progress
+UC Irvine Finance for Non-Financial Professionals | 2025
+SheCodes Responsive Web Development | 2022 | SheCodes Front End Development | 2021 | SheCodes Basics | 2021
+
 ---
 
-HARD REQUIREMENTS (automatic disqualifiers if failed):
-- 100% remote only — hybrid or onsite = immediate SKIP
-- Minimum $120,000/year base — below threshold or unclear with no upward range = flag
-- Title level: Flag if title is below Senior level OR if the role is clearly junior/coordinator scope. Do not flag Senior-level IC roles at startups as automatic disqualifiers.
-- No pure teaching or faculty roles
-- No contract or part-time unless explicitly leading to permanent full-time
+HARD REQUIREMENTS — evaluate each explicitly:
+- Remote: 100% remote only. Hybrid or onsite = immediate SKIP and hard filter failure.
+- Salary: Minimum $120,000/year base. Flag if clearly below or if there are no salary signals at all with no upward range likely. Do NOT fail this filter for roles where salary is simply unstated — mark as unclear with a note.
+- Title Level: Flag ONLY if the role is clearly junior — Manager-level and below, Coordinator, Specialist, Associate, or entry-level scope. Do NOT flag Senior-level roles, Senior ICs, or Senior PMs even at startups where title conventions differ from enterprise. Senior = acceptable.
+- Employment Type: Flag contract-only or part-time unless explicitly leading to permanent full-time.
 
-TARGET ROLES: Director of Instructional Design, Director of Learning Experience, Director of Educational Content Production, Head of Instructional Design, Senior Manager/Director of Enablement, Director of L&D, EdTech Product or Program Manager, VP/AVP Learning Operations, AI Enablement Lead/Director, Learning Systems Director, Curriculum Strategy Director
+IMPORTANT SCORING NOTES:
+- Do NOT flag absence of team leadership, direct reports, or budget management as a gap, risk, or screening concern. Candidate is not filtering for team leadership scope and this is not a negative signal.
+- Do NOT treat traditional product management roles as misaligned by default. Product Manager roles at edtech or learning-focused companies are valid target roles. Candidate's course production background IS product ownership — she has defined requirements, managed cross-functional production cycles, shipped learning products, measured outcomes, and iterated based on data. This translates directly to PM work.
+- When evaluating PM roles specifically: her Methodwise founder experience (end-to-end product ownership, shipped live product, analytics, user flows, payments, iteration) is strong PM evidence. Her course production experience is product management under a different name.
+
+TARGET ROLES — all of the following are valid targets, score role alignment accordingly:
+- Director of Instructional Design
+- Director of Learning Experience
+- Director of Educational Content Production / Course Production
+- Head of Instructional Design
+- Senior Manager or Director of Enablement
+- Director of Learning & Development
+- Senior Product Manager, Product Manager, or Director of Product at edtech or learning-focused companies
+- VP/AVP Learning Operations
+- AI Enablement Lead or Director
+- Learning Systems Director
+- Curriculum Strategy Director or Lead
+- Program Manager in education or edtech
 
 TARGET INDUSTRIES: Higher education, K-12 edtech, corporate L&D, edtech startups, SaaS with learning or enablement functions
 
 RESUME SELECTION GUIDE:
-- Operations resume: operations, program management, AI enablement, workflow automation, systems design, tooling, enablement roles
-- Learning resume: curriculum strategy, instructional design, learning experience, edtech product, academic program management, L&D leadership, AI-integrated learning roles
+- Operations resume: operations, program management, AI enablement, workflow automation, systems design, tooling, enablement, product operations roles
+- Learning resume: curriculum strategy, instructional design, learning experience, edtech product management, academic program management, L&D leadership, AI-integrated learning, student-facing product roles
 
 SCORING RUBRIC (total 100 points):
-- Role & Title Alignment: 0-25 (25=exact match to target roles, 13=adjacent, 0=misaligned)
-- Remote Confirmation: 0-25 (25=explicitly fully remote, 13=unclear, 0=hybrid or onsite)
-- Salary Signals: 0-20 (20=clearly at or above $120K, 10=unclear but likely, 0=below or red flags)
-- Industry Fit: 0-15 (15=target industry, 8=adjacent, 3=stretch, 0=unrelated)
-- Skills & Tools Match: 0-15 (15=strong overlap with her technical stack, 7=partial, 0=mismatch)
-
-EVALUATION RULES:
-- Do NOT flag absence of team leadership, direct reports, or budget management as a gap or screening concern. Candidate is not filtering for team leadership scope.
-- Evaluate the role's seniority and strategic scope, not whether it requires managing a team.
+- Role & Title Alignment: 0-25
+  25 = exact match to target roles listed above
+  18 = strong adjacent match (e.g. PM at edtech company, enablement at SaaS)
+  10 = stretch but plausible given her background
+  0 = clearly misaligned (e.g. pure engineering, sales, finance)
+  NOTE: Senior PM at an edtech company focused on learning outcomes scores 18-22, not 0.
+- Remote Confirmation: 0-25
+  25 = explicitly fully remote
+  13 = unclear or partially remote
+  0 = hybrid or onsite required
+- Salary Signals: 0-20
+  20 = clearly at or above $120K
+  10 = unclear but likely given company size/role level
+  0 = clearly below $120K or explicit red flags
+- Industry Fit: 0-15
+  15 = target industry (edtech, higher ed, K-12, corporate L&D)
+  8 = adjacent (SaaS with learning function, workforce tech)
+  3 = stretch
+  0 = unrelated
+- Skills & Tools Match: 0-15
+  15 = strong overlap with her technical stack and competencies
+  7 = partial overlap
+  0 = fundamental mismatch
 
 VERDICT LOGIC:
 - PASS: total score 75+ AND all hard filters passed
