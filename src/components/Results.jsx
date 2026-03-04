@@ -183,11 +183,9 @@ export default function Results({ result, onCopyResults }) {
         <Section title="Resume Recommendation">
           <div className="bg-gray-800 border border-gray-700 rounded-lg p-3">
             <span className="inline-block bg-indigo-600 text-white text-xs font-bold px-2 py-0.5 rounded mr-2">
-              RESUME {result.resume_recommendation.version}
+              {result.resume_recommendation.version?.toUpperCase()}
             </span>
-            <span className="text-xs text-gray-400">
-              {result.resume_recommendation.version === 'A' ? 'OPERATIONS' : 'LEARNING'}
-            </span>
+            <span className="text-xs text-gray-400">Resume</span>
             {result.resume_recommendation.reason && (
               <p className="text-sm text-gray-300 mt-2">{result.resume_recommendation.reason}</p>
             )}

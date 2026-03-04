@@ -16,8 +16,8 @@ function Spinner() {
 function formatResultsAsText(result) {
   if (!result) return '';
   const lines = [];
-  lines.push(`MATCH & APPLY — JOB EVALUATION`);
-  lines.push(`================================`);
+  lines.push(`JOB MATCH EVALUATOR — ASSESSMENT`);
+  lines.push(`=================================`);
   lines.push(`VERDICT: ${result.verdict}`);
   lines.push(`MATCH SCORE: ${result.total_score}/100`);
   lines.push('');
@@ -47,7 +47,7 @@ function formatResultsAsText(result) {
   }
   if (result.resume_recommendation) {
     lines.push(`RESUME RECOMMENDATION`);
-    lines.push(`  Resume ${result.resume_recommendation.version} (${result.resume_recommendation.version === 'A' ? 'OPERATIONS' : 'LEARNING'}): ${result.resume_recommendation.reason}`);
+    lines.push(`  ${result.resume_recommendation.version} Resume: ${result.resume_recommendation.reason}`);
     lines.push('');
   }
   if (result.screening_concerns?.length) {
@@ -120,9 +120,9 @@ export default function App() {
       {/* Header */}
       <header className="border-b border-gray-800 px-6 py-4">
         <h1 className="text-xl font-black tracking-tight text-white">
-          Match <span className="text-indigo-400">&amp;</span> Apply
+          Job Match Evaluator
         </h1>
-        <p className="text-xs text-gray-500 mt-0.5">Personal job match evaluator</p>
+        <p className="text-xs text-gray-500 mt-0.5">Personal job search tool</p>
       </header>
 
       {/* Main two-column layout */}
