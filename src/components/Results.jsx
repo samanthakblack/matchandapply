@@ -50,8 +50,9 @@ function ProgressBar({ score, max }) {
   );
 }
 
-export default function Results({ result, onCopyResults }) {
+export default function Results({ result, onCopyResults, onExport }) {
   const [copied, setCopied] = useState(false);
+  const [exported, setExported] = useState(false);
 
   if (!result) return null;
 
@@ -61,6 +62,12 @@ export default function Results({ result, onCopyResults }) {
     onCopyResults();
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleExport = () => {
+    onExport();
+    setExported(true);
+    setTimeout(() => setExported(false), 2000);
   };
 
   const totalPct = Math.min(100, result.total_score);
@@ -76,8 +83,14 @@ export default function Results({ result, onCopyResults }) {
 
   return (
     <div className="space-y-2">
-      {/* Copy button */}
-      <div className="flex justify-end">
+      {/* Action buttons */}
+      <div className="flex justify-end gap-2">
+        <button
+          onClick={handleExport}
+          className="text-xs text-gray-400 hover:text-gray-200 border border-gray-700 hover:border-gray-500 rounded px-2 py-1 transition-colors"
+        >
+          {exported ? 'Exported!' : 'Export JSON'}
+        </button>
         <button
           onClick={handleCopy}
           className="text-xs text-gray-400 hover:text-gray-200 border border-gray-700 hover:border-gray-500 rounded px-2 py-1 transition-colors"

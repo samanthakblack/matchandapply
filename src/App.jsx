@@ -115,6 +115,21 @@ export default function App() {
     navigator.clipboard.writeText(text).catch(() => {});
   };
 
+  const handleExport = () => {
+    const payload = {
+      exported_at: new Date().toISOString(),
+      job_description: jobDescription,
+      evaluation: result,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `evaluation-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div className="min-h-screen bg-gray-950 flex flex-col">
       {/* Header */}
@@ -227,7 +242,7 @@ export default function App() {
             )}
 
             {result && !loading && (
-              <Results result={result} onCopyResults={handleCopyResults} />
+              <Results result={result} onCopyResults={handleCopyResults} onExport={handleExport} />
             )}
 
             {/* Cover Letter */}
