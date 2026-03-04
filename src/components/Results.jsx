@@ -89,7 +89,7 @@ export default function Results({ result, onCopyResults, onExport }) {
           onClick={handleExport}
           className="text-xs text-gray-400 hover:text-gray-200 border border-gray-700 hover:border-gray-500 rounded px-2 py-1 transition-colors"
         >
-          {exported ? 'Exported!' : 'Export JSON'}
+          {exported ? 'Exported!' : 'Export'}
         </button>
         <button
           onClick={handleCopy}

@@ -116,16 +116,22 @@ export default function App() {
   };
 
   const handleExport = () => {
-    const payload = {
-      exported_at: new Date().toISOString(),
-      job_description: jobDescription,
-      evaluation: result,
-    };
-    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const dateStr = new Date().toISOString().slice(0, 10);
+    const lines = [
+      `MATCH & APPLY — EXPORT`,
+      `Exported: ${new Date().toLocaleString()}`,
+      ``,
+      `JOB DESCRIPTION`,
+      `=================================`,
+      jobDescription,
+      ``,
+      formatResultsAsText(result),
+    ];
+    const blob = new Blob([lines.join('\n')], { type: 'text/plain' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `evaluation-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `evaluation-${dateStr}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   };
