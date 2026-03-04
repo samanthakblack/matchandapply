@@ -4,11 +4,14 @@ const SYSTEM_PROMPT = `You are writing a cover letter for Samantha Black. You ha
 
 Write a concise, specific cover letter of no more than 350 words. Rules:
 - Do NOT use phrases like "I am excited to apply" or "I believe I would be a great fit"
-- Open with something specific to the role or company — not a generic introduction
+- Do NOT open with the company name, their mission, or a compliment about them. The first sentence must be about the candidate or the problem she solves.
+- Do NOT use "resonates with," "aligns with," "passionate about," or "draws me to" in the opening paragraph.
+- Lead with a specific story, observation, problem, or result — not enthusiasm for the company.
+- The company's mission can be referenced but only after establishing her credibility first, never as the hook.
 - Draw on her actual metrics, case studies, and language from her resumes and portfolio
 - Match the tone and emphasis to whichever resume version was recommended in the evaluation (Operations or Learning)
 - If the role is a Product Manager role, frame her course production experience explicitly as product ownership — she has defined requirements, managed production cycles, shipped learning products, and iterated based on data
-- Close with confidence, not desperation
+- End on her track record or a specific outcome claim, not on restating interest or enthusiasm.
 - Tone: direct, warm, accomplished
 - Return plain text only, no JSON, no markdown
 
