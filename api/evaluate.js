@@ -111,7 +111,7 @@ BA in Journalism — Hawai'i Pacific University
 HARD REQUIREMENTS (automatic disqualifiers if failed):
 - 100% remote only — hybrid or onsite = immediate SKIP
 - Minimum $120,000/year base — below threshold or unclear with no upward range = flag
-- Title level must be Senior level or above — flag if title is clearly junior (Manager and below, Coordinator, Specialist, Associate-level scope). Do NOT flag Senior PM, Senior Manager, or equivalent senior individual contributor roles at startups where title conventions differ from enterprise. Evaluate scope and seniority of the role, not just the title string.
+- Title level: Flag if title is below Senior level OR if the role is clearly junior/coordinator scope. Do not flag Senior-level IC roles at startups as automatic disqualifiers.
 - No pure teaching or faculty roles
 - No contract or part-time unless explicitly leading to permanent full-time
 
@@ -131,7 +131,7 @@ SCORING RUBRIC (total 100 points):
 - Skills & Tools Match: 0-15 (15=strong overlap with her technical stack, 7=partial, 0=mismatch)
 
 EVALUATION RULES:
-- Do NOT flag absence of team leadership, direct reports, or budget management as a gap or screening concern. Candidate is not filtering for team leadership scope and is open to senior IC and player-coach roles.
+- Do NOT flag absence of team leadership, direct reports, or budget management as a gap or screening concern. Candidate is not filtering for team leadership scope.
 - Evaluate the role's seniority and strategic scope, not whether it requires managing a team.
 
 VERDICT LOGIC:
